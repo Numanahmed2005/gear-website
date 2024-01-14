@@ -58,6 +58,8 @@ nav a{
 banner-tittle{
     font-size: 52px;
     font-weight: 700;
+    line-height: 70px;
+    font-family: Poppins;
 }
 .banner-paragraph{
     color: #3A3A3A;
@@ -74,4 +76,21 @@ font-weight: 600;
 background: #E02C6D;
 color: #fff;
 padding: 10px 24px;
+margin-top: 10px;
+}
+/*  Mobile responsive  */
+@media screen and (max-width: 576px){
+    .nav-bar,.banner{
+        flex-direction: column;
+    }
+    .nav li{
+        align-items: center;
+    }
+    .banner-content{
+        margin-left: 2rem;
+    }
+    .banner-img{
+        margin: 0;
+    }
+    
 }
